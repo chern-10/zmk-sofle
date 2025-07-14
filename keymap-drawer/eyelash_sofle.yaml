@@ -160,7 +160,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
-  - EP TOG
+  - EP OFF
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+L
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -173,7 +173,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
-  - '&soft_off'
+  - EP ON
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: X, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -184,7 +184,7 @@ layers:
   - RGB EFR
   - RGB SPD
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
